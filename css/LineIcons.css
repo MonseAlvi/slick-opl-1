@@ -13,18 +13,14 @@
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'LineIcons' !important;
   speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
+
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.lni-add-file:before {
+.lni-add-file:after {
   content: "\e900";
 }
 .lni-empty-file:before {
@@ -42,7 +38,7 @@
 .lni-laptop-phone:before {
   content: "\e902";
 }
-.lni-laptop:before {
+.lni-laptop: after {
   content: "\e936";
 }
 .lni-mobile:before {
@@ -1901,7 +1897,3 @@ span{
     -webkit-animation: fade-right 1.5s infinite linear;
             animation: fade-right 1.5s infinite linear;
 }
-
-
-
-
